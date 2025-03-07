@@ -1,0 +1,32 @@
+# Core ML & Deep Learning Libraries
+torch
+torchvision
+torchaudio
+
+# Hugging Face Transformers (For Pretrained Models)
+transformers
+datasets
+
+# NLP Libraries
+nltk
+
+
+# Tokenization & Embeddings
+sentencepiece
+gensim
+
+# Data Handling
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Preprocessing
+scikit-learn
+
+emoji           # For handling emoji in text
+
+# Web App Deployment (If using Streamlit)
+streamlit
