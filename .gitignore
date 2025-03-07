@@ -13,6 +13,7 @@ __pycache__/
 *.npy
 *.npz
 
+
 # Ignore TensorFlow/PyTorch tensor files
 *.tensors
 *.pb
@@ -42,3 +43,9 @@ logs/
 
 # Ignore Jupyter Notebook cache
 .ipynb_checkpoints/
+
+Roberta/
+*.pt
+*.bin
+*.tensors
+*.h5
