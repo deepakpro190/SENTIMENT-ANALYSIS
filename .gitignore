@@ -1,0 +1,44 @@
+# Ignore Python cache, logs, and system files
+__pycache__/
+*.log
+.vscode/
+.DS_Store
+
+# Ignore ML model files and large binaries
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.npy
+*.npz
+
+# Ignore TensorFlow/PyTorch tensor files
+*.tensors
+*.pb
+*.pbtxt
+*.tar.gz
+
+# Ignore word embeddings (GloVe, FastText, Word2Vec, etc.)
+glove.6B.200d.txt
+glove.42B.200d.txt
+glove.840B.200d.txt
+glove.twitter.27B.200d.txt
+*.bin
+*.vec
+
+# Ignore datasets and CSVs
+dataset/
+*.csv
+*.json
+*.tsv
+*.xlsx
+
+# Ignore checkpoints and model outputs
+checkpoints/
+models/
+outputs/
+logs/
+
+# Ignore Jupyter Notebook cache
+.ipynb_checkpoints/

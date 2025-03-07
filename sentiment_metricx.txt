@@ -1,0 +1,88 @@
+ Train Loss: 0.061 Train Acc: 0.983 | Val Loss: 0.435 Val Acc: 0.871
+
+
+model 1
+Train Loss: 0.141 Train Acc: 0.952 | Val Loss: 0.456 Val Acc: 0.857
+dropout = 0.25 lr 0.001  epochs =8  batch size =128
+
+model 2
+Train Loss: 0.151 Train Acc: 0.950 | Val Loss: 0.423 Val Acc: 0.861
+dropout = 0.5 lr 0.001  epochs =8  batch size =128 layers =2
+
+
+model 3
+Train Loss: 0.154 Train Acc: 0.946 | Val Loss: 0.405 Val Acc: 0.863
+dropout = 0.5 lr 0.001  epochs =8  batch size = 64 layers =2
+
+model 4
+Train Loss: 0.035 Train Acc: 0.992 | Val Loss: 0.603 Val Acc: 0.858
+dropout = 0.25 lr 0.001  epochs =8  batch size = 64 layers =2
+
+model 5
+worse
+dropout = 0.25 lr= 0.0001  epochs =8  batch size = 64 layers =2
+
+model 6
+bad
+dropout = 0.25 lr= 0.001  epochs =8  batch size = 64 layers =3
+
+
+model 7
+bad
+dropout = 0.25 lr= 0.01  epochs =8  batch size = 64 layers =3
+
+model 8
+bad
+dropout = 0.25 lr= 0.01  epochs =8  batch size = 128 layers =3
+
+model 9
+Train Loss: 0.052 Train Acc: 0.987 | Val Loss: 0.545 Val Acc: 0.859
+dropout = 0.25 lr= 0.001  epochs =8  batch size = 64 layers =1
+
+model 10
+Train Loss: 0.034 Train Acc: 0.992 | Val Loss: 0.549 Val Acc: 0.869
+dropout = 0.5 lr= 0.001  epochs =8  batch size = 64 layers =1
+
+model 11
+Train Loss: 0.058 Train Acc: 0.984 | Val Loss: 0.500 Val Acc: 0.867
+dropout = 0.5 lr= 0.001  epochs =8  batch size = 32 layers =1
+
+
+model 12
+Train Loss: 0.019 Train Acc: 0.995 | Val Loss: 0.586 Val Acc: 0.870
+dropout = 0.5 lr= 0.001  epochs =10  batch size = 32 layers =1
+
+model 13
+less good than 12
+dropout = 0.25 lr= 0.001  epochs =10  batch size = 32 layers =1
+
+
+
+
+
+bert1
+Training Loss: 0.1038, Accuracy: 0.9641
+                                                                          
+Validation Loss: 0.3016, Accuracy: 0.9002
+
+
+bert2
+Training Loss: 0.0264, Accuracy: 0.9930
+                                                                           
+Validation Loss: 0.4425, Accuracy: 0.8979
+
+
+
+Roberta 1
+Training Loss: 0.1227, Accuracy: 0.9548
+                                                                           
+Validation Loss: 0.2377, Accuracy: 0.9204
+
+
+distill bert 1
+Training Loss: 0.1335, Accuracy: 0.9517
+                                                                          
+Validation Loss: 0.2958, Accuracy: 0.8957
+
+
+
